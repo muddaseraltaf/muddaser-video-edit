@@ -1,0 +1,6 @@
+# Add a sample without replacing the library
+Keep reference video private in samples/. Record hash, duration, frame rate, dimensions and a descriptive local ID. Transcribe locally when speech matters. Inspect the entire timeline with a sparse overview, the first ten seconds more densely, and uncertain transitions at enough frame density to understand the movement. Widely spaced stills cannot establish exact easing or cut timing.
+
+Write a private study: approximate time ranges, narrated anchor, visual evidence, explanatory job, layout/type/movement behavior, and useful adaptation. Distinguish observed behavior from inferred implementation parameters. Full mixed-track peaks cannot identify exact SFX; direct listening and isolated assets are different evidence. Do not claim retention improvement or verify a sample's factual allegations from its editing quality.
+
+Update benchmark-library.md only with distinct transferable patterns, preference changes and known failures. Keep raw transcript, screenshots and detailed hashes in the private study, not the public skill. New samples are cumulative; conflicting styling stays an option unless the user explicitly changes a preference. Avoid adding a new universal rule after every isolated issue.

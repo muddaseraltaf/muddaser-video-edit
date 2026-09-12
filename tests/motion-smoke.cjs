@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict');
+const {gsap}=require('gsap');
+require('../assets/motion.js');
+const actor={x:0,y:0};
+const tl=gsap.timeline({paused:true});
+MuddaserMotion.arc(tl,actor,0,{x:0,y:0},{x:50,y:-80},{x:100,y:0},2);
+tl.seek(1);assert(Math.abs(actor.x-50)<1);assert(actor.y < -35);
+const mid={...actor};tl.seek(2);assert(Math.abs(actor.x-100)<1);assert(Math.abs(actor.y)<1);
+tl.seek(1);assert(Math.abs(actor.x-mid.x)<.001);assert(Math.abs(actor.y-mid.y)<.001);
+tl.seek(0);assert(Math.abs(actor.x)<1);assert(Math.abs(actor.y)<1);
+assert.throws(()=>MuddaserMotion.phrase(tl,{}, {},null,0,.5));
+tl.kill();console.log('GSAP curved travel: midpoint, endpoints and reverse seek passed');

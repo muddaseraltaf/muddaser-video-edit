@@ -1,0 +1,17 @@
+{
+  "name": "muddaser-video-editing-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portable English/Urdu editing skill and motion recipes",
+  "dependencies": {
+    "hyperframes": "0.8.35",
+    "gsap": "3.14.2"
+  },
+  "scripts": {
+    "check": "python3 scripts/doctor.py",
+    "test": "python3 -m unittest discover -s tests -v && node tests/motion-smoke.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
