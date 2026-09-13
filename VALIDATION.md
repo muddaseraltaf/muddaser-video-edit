@@ -1,4 +1,14 @@
-# Package validation — 2026-09-12
+# Package validation
+
+## Reference expansion — 2026-09-13
+
+- Studied six additional motion references using full-duration overview sampling and denser opening/transition sequences. Detailed evidence remains in the private workspace.
+- Skill validation, all three portable Python tests and the GSAP motion smoke test passed after the documentation update.
+- Package-relative Markdown links resolved; whitespace checks and the publication file inventory passed.
+- The added cutout/depth constructions are proposed recipes, not newly rendered or visually validated presets. No video was edited for this update.
+
+## Established package — 2026-09-12
+
 - Skill frontmatter/name validation passed.
 - Synthetic FFmpeg media intake and contact sheet passed.
 - Urdu timestamp import, unchanged-cache reuse, changed-import rejection and preservation of prior output passed.

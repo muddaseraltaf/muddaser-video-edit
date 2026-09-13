@@ -1,12 +1,16 @@
 # Creative direction — canonical preferences
 
 ## Hook and retention
-Give the first five seconds the strongest relevant opening; use the first ten to deepen it or show evidence. Start with a source-grounded promise, question, contrast or visual event. Choose speaker-led selective emphasis or a short related montage according to the material. Do not force a five-minute claim, numeric counter or three-portrait template onto another topic. Create distinct semantic beats, not animation for its own sake. Retention is an aim, not a measured guarantee.
+The opening is a production priority, not finishing decoration. Before building the rest, write what the viewer sees, understands and wants to know at 0–2, 2–5 and 5–10 seconds. These are planning windows, not mandatory cuts. Establish a striking subject/action or selective phrase, escalate its meaning, then deliver a reveal, mechanism, demonstration or evidence that earns continued attention. A generic title over an otherwise unchanged shot is insufficient for this user's default style.
+
+Choose a relevant cutout, evolving diagram, guided screenshot, product detail or purposeful kinetic phrase. Preserve source meaning and expression. Review the opening for a clear topic, legible focal point, meaningful development and readable settlement. Rework decoration that explains nothing, text covering the face, or an arrival immediately followed by an exit. Do not force another sample's claims or montage template onto unrelated material. Retention is an aim, not a measured guarantee or a demand for constant busyness.
 
 ## Visual storytelling
 Each insert needs a job: evidence, explanation, emphasis, demonstration or transition. A real screenshot can stay for many seconds while a crop/highlight guides reading. Diagrams should show a verb or state change with persistent objects. Repeated generic cards, unrelated icons and labels such as Create/Adapt/Learn are insufficient as the main visual treatment.
 
 Use full speaker for expression/pivots, temporary half screen for simultaneous explanation, a small face crop when graphics need room, and full-screen evidence or animation when meaningful. Return clearly. Keep the face at useful scale and inspect intermediate crops. A circle is an option, not a compulsory layout.
+
+Select a compatible family from [benchmark library](benchmark-library.md). For image layers and dimensional motion, use [cutouts and depth](cutouts-and-depth.md) to choose the assets and construction method. There is no quota for effects; a held, guided source may explain more than several decorative transitions.
 
 ## Motion
 Major movement should accelerate and decelerate: slow–fast–slow. Starting ranges from accepted feedback: complete shrink/slide/replacement ~1.5–1.7s; vertical half-screen layout move ~1s; gentler float cycles ~2.5–3s. These are choices, not quotas. Short accents can be brisk while big spatial movement remains smooth.

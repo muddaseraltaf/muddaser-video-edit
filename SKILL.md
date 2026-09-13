@@ -6,6 +6,12 @@ description: Edit English or Urdu talking-head videos with Muddaser's hook, evid
 
 A portable editing workflow and accumulated creative direction. Instructions and reusable tools preserve the learning; they do not retrain a model or guarantee audience retention.
 
+## Major rules
+
+- **Design the first ten seconds first.** Give the first five a strong, relevant graphic hook; develop it into a reveal, explanation or evidence by ten. Apply the opening review in [creative direction](references/creative-direction.md).
+- **Make visuals explain the speech.** Choose from the cumulative library; preserve expressive face framing, selective shaped Urdu, light surfaces and smooth major movement.
+- **Keep work editable and verified.** Preserve originals and versions, save a project handoff, and inspect the export. A reference-study request alone does not authorize a video edit.
+
 ## Start here
 Use the user's current request to choose one mode. Resume existing project state before doing new analysis. A reference or setup request does not imply a video re-edit.
 
@@ -17,15 +23,14 @@ Use the user's current request to choose one mode. Resume existing project state
 | Setup / another AI or computer | [setup](references/setup.md) | Dependency check and reusable workspace |
 | Speech/captions | [transcription](references/transcription.md) | Reviewed timestamped speech and selective highlights |
 | Motion implementation | [motion recipes](references/motion-recipes.md) | Renderer-compatible, seekable animation |
+| Cutouts, parallax or 3D | [cutouts and depth](references/cutouts-and-depth.md) | Suitable assets, coherent layers and meaningful reveals |
 
 Read [benchmark library](references/benchmark-library.md) when selecting a visual strategy. Load only the reference relevant to the stage; do not dump the library every turn.
 
 ## Operating contract
 - Put inputs in `source/`, private reference media in `samples/`, editable work in `projects/`, and exports in `output/` under the active workspace. Existing projects may retain their current paths.
-- Identify the requested source; exclude samples and generated videos. Preserve originals and previous exports. Cache analysis by source hash and settings.
-- The first five seconds deserve the strongest content-grounded hook; carry the idea into evidence or an example through the first ten seconds when appropriate.
-- Visuals should explain the speech. Favor guided real evidence and evolving diagrams over generic repeated cards. Preserve correctly shaped selective Urdu phrases.
+- Classify files by user intent: a reference remains a reference even inside `source/`. Exclude samples and generated videos from edit intake. Cache analysis by source hash and settings.
 - Style, motion timings and reference adaptations have one canonical home: creative-direction and benchmark-library. Follow current user feedback over historical defaults.
 - Hyperframes/GSAP is the established renderer. Other AI tools can follow this skill as Markdown; capabilities and execution permissions must be checked on the target host. Do not pretend unavailable browsing, hearing or rendering was performed.
-- Save project state as specified in workflow. Deliver a short file link by default; keep large previews and detailed logs local. A folder arrival alone does not start an unattended job.
+- Deliver a short file link by default; keep large previews and detailed logs local. A folder arrival alone does not start an unattended job.
 - Authorization is task-specific: this package does not grant uploads, paid services, public posting or repository publication. Use supplied assets first, and available authorized research/generation when it meaningfully helps.

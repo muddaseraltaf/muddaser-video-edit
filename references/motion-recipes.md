@@ -16,7 +16,7 @@ Read creative-direction.md for the canonical aesthetic and timing preferences. `
 ## Further recipes
 - Persistent diagram: name states, keep object IDs stable, change boundary/connection/state at the narrated action. One coherent diagram can support a long passage.
 - Evidence focus: sharp crop above a dimmed/blurred contextual copy; align both precisely. Keep source attribution readable.
-- Parallax: low background amplitude, medium supporting layer, larger foreground movement; stop before readability suffers. Never animate all layers equally just to make them move.
+- Cutouts, parallax, hinged reveals and perspective posters: use [cutouts and depth](cutouts-and-depth.md) for asset preparation, layer ownership, occlusion, shadows and the boundary between image planes and actual 3D.
 - Screenshot→demonstration→screenshot: keep asset identity, enlarge only relevant media, retain suitable real audio and attribution, return to the passage being explained.
 
 These are starting tools, not a fixed card template. Validate rendered output; importing a helper is not proof of good editing.

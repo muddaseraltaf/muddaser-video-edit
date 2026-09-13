@@ -32,8 +32,11 @@ Use `source/` for raw footage, `samples/` for reference videos and companion mat
 - One short skill entry point, focused references and an additive benchmark library.
 - Intake/contact-sheet helper, cached transcript import/local transcription, dependency checker and workspace initializer.
 - Small GSAP motion helpers for framed handoffs, masked phrases, guided highlights and curved travel.
+- A focused construction guide for image cutouts, hinged reveals, occlusion, perspective, parallax and shadows, with guidance on when actual 3D assets are needed; six additional motion reference families.
 - Project handoff schema and verification expectations.
 - Smoke tests using synthetic media; no private samples or exported personal videos.
+
+The first ten seconds are a major rule, with the opening review kept in [creative direction](references/creative-direction.md). New reference recipes are implementation guidance, not tested animation presets or bundled 3D models. Earlier styles remain available.
 
 ```sh
 npm test

@@ -1,9 +1,9 @@
 # Editing and portable project state
 
 ## Intake and planning
-1. Identify the requested input in source/. Inspect metadata, orientation, HDR/color, audio, scene changes and representative frames. `scripts/intake.py` makes a basic contact sheet; six frames are an initial look, not a deep review.
+1. Identify the requested input by user intent and local intake state; exclude reference-role files even inside source/. Inspect metadata, orientation, HDR/color, audio, scene changes and representative frames. `scripts/intake.py` makes a basic contact sheet; six frames are an initial look, not a deep review.
 2. Read/create timestamped speech using transcription.md. Review uncertain words and meaningful pauses. Propose frame-aligned silence/mistake cuts; preserve qualifiers and natural breaths. Do not classify all gaps as mistakes or deliberately requested speech cuts as silence.
-3. Write a compact DESIGN.md: hook, spoken beats, insert job/source, diagram states, chosen layout/type/palette/movement and readable holds. Use benchmark-library to choose techniques, not to copy another video's claims.
+3. Write a compact DESIGN.md: opening progression, spoken beats, insert job/source, diagram states, chosen layout/type/palette/movement and readable holds. Apply the opening review in creative-direction before building the remainder. Use benchmark-library to choose techniques, not to copy another video's claims. For dimensional scenes, record available assets, layers and pivots using cutouts-and-depth.md.
 4. Map all graphics and highlighted phrases to the edited timeline. Keep source-to-output ranges. Include small cut handles and audio fades where appropriate. Preserve the original source.
 
 ## Implement and verify

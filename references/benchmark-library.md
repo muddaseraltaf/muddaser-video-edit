@@ -1,28 +1,32 @@
 # Cumulative benchmark library
-These notes preserve the learning even when the original private samples are unavailable. Observations are from sampled frames/transcripts; exact audio effects and original easing curves were not established. Recipes are adaptations, not copied footage or project code.
+These notes preserve learning when private samples are unavailable. Timings are approximate observations from sampled frames/transcripts; exact easing and isolated audio effects were not established. Recipes are adaptations, not copied footage or project code.
 
-| Reference family | Transferable techniques | Adaptation |
+## Established families
+| Reference family | Transferable behavior | Adaptation |
 |---|---|---|
-| Early sample 1 | Persistent icon worlds, traced rings, floating perspective cards, camera pullbacks, selective-focus text | Retain depth/continuity; prefer light surfaces for this user |
-| Early sample 2 | Compact keyword accents, temporary upper insert, image layers across depth | Keep emphasis selective and preserve speaker/face |
-| Explicit user handoff | Whole shot shrinks, leaves left; incoming visual enters left small and grows; same on return | Match safe crop, overlap and slow-fast-slow major movement |
-| Evidence explainer benchmark A (~107s) | Speaker-led curiosity, yellow keyword escalation; post with progressively highlighted text; small circular speaker above a persistent boundary/node diagram; later light report evidence | Move the evidence with narration, make diagram actions meaningful; circle optional |
-| Montage/screen benchmark B (~111s) | Three related opening portraits with repeated stamp motif; website/speaker split; large statistics over UI; focused screen region with blurred surroundings; source post→phone demo→source return; later recap | Use only source-supported claims and relevant assets; lengthen big transitions to user preference |
-| Repository study: iart-ai | Motion hierarchy, arcs, follow-through, masked type | Useful vocabulary for deciding what moves, not compulsory animation everywhere |
-| Repository study: claude-remotion-skill | Multi-property entrances, parallax, staggered settlement, action-linked sound | Port craft to current renderer; reject always-on grain/glow/movement and continuous captions |
-| Urdu agent-incident trial | Science-fiction/reality text contrast; persistent speaker with alternating half-screen diagrams; primary-source report and technical-page takeovers; quiet semantic SFX | Warm investigative palette worked with native dark evidence; qualify claims on screen when the primary source is narrower |
+| Early sample 1 | Persistent icon worlds, traced rings, floating perspective cards, camera pullbacks, selective-focus text | Retain continuity/depth; prefer light surfaces |
+| Early sample 2 | Compact keyword accents, temporary upper insert, image layers across depth | Keep emphasis selective and preserve the face |
+| Explicit user handoff | Whole shot shrinks/exits left; incoming visual enters left small and grows; roles reverse on return | Safe crop, overlap and smooth major movement |
+| Evidence explainer A (~107s) | Human hook; source around 5s; post held ~5–24s with advancing highlights; circle speaker and persistent diagram ~40s; node crosses boundary ~55–57s; later report | Guide reading and make diagram actions explain speech; circle optional |
+| Montage/screen B (~111s) | Related opening portraits; site/speaker ~4–7s; zoom resolves into readable screen ~8s; selected region sharp ~22s; source → phone demonstration → source ~53–73s | Preserve source identity, relevant assets and supported claims; slow substantial transitions to user preference |
+| Repository studies: iart-ai / claude-remotion-skill | Motion hierarchy, arcs, follow-through, masked type, multi-property entrances, parallax, staggered settlement and action-linked sound | Port craft to current renderer; avoid compulsory grain/glow/movement or continuous captions |
+| Urdu agent-incident trial | Text contrast, alternating half-screen diagrams, primary-source takeovers, quiet semantic SFX, warm investigative palette | Qualify claims to the source; verify exported stacking so the speaker cannot hide evidence; let persistent labels yield during full-screen sources |
 
-## Most important observations
-Benchmark A's opening is not graphically busy: a human hook, selective text and an actual cited artifact around five seconds. Its post remains around 5–24s while highlights advance. Around 40s the speaker becomes a circle and the lower region explains a mechanism; around 55–57s movement of the node relative to a boundary illustrates escape. Borrow the explanatory structure, not the video's factual claims.
+## Motion-design additions — 2026-09-13
+Six distinct families, studied over their full durations with denser samples of entrances, depth changes and returns. The following constructions are hypotheses for adaptation, not known creator implementations.
 
-Benchmark B uses approximately three visual hook subjects across four seconds. Around 4–7s it connects a site and speaker; around 7.7–8.3s a zoom/blur settles into a readable screen. Around 22–23.5s a selected source tile is sharp while neighbors blur. Around 53–73s a source post establishes context, embedded media expands, then the post returns with highlighted explanation. Repeated objects and source identity reduce the viewer's reorientation cost.
+| Family | Observed sequence | Reusable choice |
+|---|---|---|
+| Editorial objects (~18s) | Bulb/butterfly and selective red type ~0–1.5s; halftone figure/pullback ~1.5–3s; cash case resolves from foreshortening ~6–7.5s; pinned note gains rows ~7.5–9.5s; profile grows/tilts ~12.7–14.2s | Anchor an abstract idea in a relevant cutout; build supporting facts around one object; choose restrained perspective for a source reveal |
+| Minimal shapes (4s) | Phrase builds, hollow circles spread into a ring ~1–1.5s; framed rectangle changes scale ~1.7–2.2s; dot stretches/shifts beside later words ~2.6–3.3s | One persistent shape can connect changing ideas; keep text readable and do not copy rapid timing into Urdu |
+| Camera product (~6.4s) | Rear/side/front turn ~0–1.3s; detail views ~1.3–3.4s; parts separate ~3.5–4.1s; assembly holds to ~5.1s then reforms | Use genuine geometry or matching footage for unseen surfaces; stage an exploded view around a mechanism, not random scattering |
+| Chartreuse collage poster (~12s) | Tilted poster resolves ~0–1.3s; grayscale cutout breaks a color/type panel; standing figure/contact shadow ~2–4.5s; strip and TV-headed figure ~4.5–7s; computer in perspective ~7.3–8.8s | Separate backing, cutout and type; let one plane lead and others settle; use mild perspective, brief blur and sharp holds |
+| Light technology collage (~19s) | Mechanical head and foreground badges ~0–2s; phone with messages ~2–4s; persistent product tile ~6–8.8s; car yields to driving footage in an expanding window ~9.3–11.5s; article plus foreground illustration ~14.5–16s | Combine depth layers with a meaningful demonstration; preserve the shared window and use real sourced evidence where factual claims require it |
+| Hinged paper puppet (~15s, 12fps) | Mountains/disc establish depth ~0–2s; suspended skull arrives ~2–3s; lid opens ~4.8–5.8s; cat emerges behind lip ~6–7s; cat hides ~10.2–11.1s before lid closes ~11.8–12.4s; assembly exits | Layered occlusion, fixed hinge and ordered reversal sell the reveal; preserve attachment points. Stepped source cadence is an optional style, not the default smooth-motion preference |
 
-These samples reveal a gap in the earlier IMG8157 trials: generic timeline/skill cards and palette changes alone are insufficient. Prefer content-specific evidence and diagrams that show the spoken action. More overlays is not automatically more information. A relevant screenshot may own the frame when it needs reading space.
+## Selection and maintenance
+Use evidence/diagrams for facts, relevant cutouts for abstract ideas, layered reveals or suitable 3D for mechanisms, and minimal shapes for short connections. Construction belongs in [cutouts and depth](cutouts-and-depth.md); canonical timing, opening and color rules stay in [creative direction](creative-direction.md).
 
-The agent-incident trial confirmed a practical layer-order check: sample the rendered export, not only the authored timeline, because a correctly timed speaker wrapper can still cover text and evidence through stacking order. Strict motion and contrast checks plus an exported contact sheet caught this before delivery. Full-screen evidence worked best when the persistent case label temporarily yielded to the source ribbon.
+Cream/cobalt/orange, light blue/coral, warm paper typography, restrained depth cards, guided evidence and persistent diagrams remain available. Chartreuse/monochrome collage and warm product-studio lighting add options. Choose one coherent system and mix compatible techniques. New dark samples do not reverse the objection to permanent opaque dark half screens.
 
-## Existing style alternatives
-Cream/cobalt/orange editorial, light blue/coral editorial, warmer paper typography, restrained depth cards, guided evidence and persistent diagrams remain available. Choose one coherent system per video. Dark native screenshots are allowed, but a new dark sample did not reverse the user's objection to permanent dark half screens.
-
-## How to extend
-Append a new technique only if it adds a distinct option. Revise a canonical preference in creative-direction when explicitly changed. Keep detailed new studies private, add their useful summary here, and preserve the older options. Report trial implementations as trials until reviewed by the user.
+Generic cards, static labeled diagrams and palette changes alone were insufficient in earlier trials. Each visual needs an explanatory job. Do not transplant sample slogans, creator marks, unsupported claims or original media. Keep detailed timestamps/hashes/frames private; add a family only when it contributes a distinct technique. Preserve earlier options and report new implementations as trials until reviewed.
